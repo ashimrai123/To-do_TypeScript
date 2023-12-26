@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do-App</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="headingTop">
+      <ul class="headingTop__nav">
+        <li id="faireNav">Faire</li>
+        <li id="homeNav">Home</li>
+        <li id="completedNav">Completed</li>
+        <li id="remainingNav">Remaining</li>
+      </ul>
+    </div>
+
+    <div class="inputTask">
+      <!-- SEARCH -->
+      <input type="text" id="searchInput" placeholder="Search Task " />
+
+      <!-- NEW TASK -->
+      <div class="new__task">
+        <input type="text" id="newTask" placeholder="New Task" />
+        <button id="addTaskButton" class="buttonAddTask">Add Task</button>
+      </div>
+      <ul id="taskList" class="taskListed"></ul>
+    </div>
+    <div id="app"></div>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>
