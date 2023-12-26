@@ -40,7 +40,7 @@ ul {
 
 label {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: center;
   position: relative;
   margin-bottom: 12px;
@@ -52,6 +52,17 @@ label {
   color: black;
   background-color: lightblue;
   border: 2px solid #000;
+  width: 100%;
+}
+
+.checkboxBox {
+  width: 0%;
+}
+
+.listedItem {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .taskListed {
@@ -124,4 +135,9 @@ input {
   cursor: pointer;
   border: 2px solid #000;
   white-space: nowrap;
+}
+
+.task-text {
+  display: flex;
+  justify-content: space-around;
 }

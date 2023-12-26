@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
+    <!--------------------------------- NAVIGATION ------------------------------------------------>
     <div class="headingTop">
       <ul class="headingTop__nav">
         <li id="faireNav">Faire</li>
@@ -17,17 +18,18 @@
     </div>
 
     <div class="inputTask">
-      <!-- SEARCH -->
+      <!--------------------------------- SEARCH TASK ------------------------------------------------>
       <input type="text" id="searchInput" placeholder="Search Task " />
 
-      <!-- NEW TASK -->
+      <!--------------------------------- NEW TASK ------------------------------------------------>
       <div class="new__task">
         <input type="text" id="newTask" placeholder="New Task" />
         <button id="addTaskButton" class="buttonAddTask">Add Task</button>
       </div>
+      <!--------------------------------- TASK LIST ------------------------------------------------>
       <ul id="taskList" class="taskListed"></ul>
     </div>
-    <div id="app"></div>
+    <!--------------------------------- SCRIPT ------------------------------------------------>
     <script type="module" src="./src/main.ts"></script>
   </body>
 </html>
